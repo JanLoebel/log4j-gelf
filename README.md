@@ -1,5 +1,7 @@
 # GELF Appender for Apache Log4j (1.x)
 
+[![Build Status](https://travis-ci.org/JanLoebel/log4j-gelf.svg?branch=master)](https://travis-ci.org/JanLoebel/log4j-gelf)
+
 This appender for [Apache Log4j (1.x)](https://logging.apache.org/log4j/1.x/) logs messages to a GELF server like [Graylog2](http://www.graylog2.org) or [logstash](http://logstash.net).
 
 It's using the official [GELF Java client](https://graylog2.github.io/gelfclient/) to connect to a remote server.
