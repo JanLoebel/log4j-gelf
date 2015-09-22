@@ -25,15 +25,6 @@ You can specify the following parameters for the GELF appender in the `log4j.xml
 
 
 ## Usage
-Add the `log4j-gelf` dependecy to your `pom.xml`:
-```
-	<dependency>
-		<groupId>net.codeoftheday.log4j</groupId>
-		<artifactId>log4j-gelf</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</dependency>
-```
-
 The following ``log4.properties` configuration will send all log messages with a log-level higher than `INFO` via `UDP` to `localhost` on port `12201`:
 ```
 log4j.rootLogger=INFO, gelf
